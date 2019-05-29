@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559133452830.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FDB335DA",
+    "lastKnownWriteTime" : 1559134422,
+    "last_content_update" : 1559134422863,
+    "path" : "~/UvA - Studie/ResMas 2018/Programming The Next Step/Learning_Ising_Model/R/probability_bm.R",
+    "project_path" : "R/probability_bm.R",
+    "properties" : {
+        "cursorPosition" : "18,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

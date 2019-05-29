@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558695366975.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A9AA9053",
+    "lastKnownWriteTime" : 1559049174,
+    "last_content_update" : 1559049174943,
+    "path" : "~/UvA - Studie/ResMas 2018/Programming The Next Step/Learning_Ising_Model/R/Flip-probability.R",
+    "project_path" : "R/Flip-probability.R",
+    "properties" : {
+        "cursorPosition" : "24,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

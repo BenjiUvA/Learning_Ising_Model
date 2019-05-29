@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559133522801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "66C5EC2A",
+    "lastKnownWriteTime" : 1559133590,
+    "last_content_update" : 1559133590276,
+    "path" : "~/UvA - Studie/ResMas 2018/Programming The Next Step/Learning_Ising_Model/R/entropyS.R",
+    "project_path" : "R/entropyS.R",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled4"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

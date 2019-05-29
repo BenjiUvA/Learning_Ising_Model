@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558695366351.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9CBE7E2E",
+    "lastKnownWriteTime" : 1558696323,
+    "last_content_update" : 1558696323124,
+    "path" : "~/UvA - Studie/ResMas 2018/Programming The Next Step/Learning_Ising_Model/R/Energy.R",
+    "project_path" : "R/Energy.R",
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
