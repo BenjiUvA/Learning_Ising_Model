@@ -14,7 +14,7 @@
 
 LIMA_sim1 <- function(n = 10, nreps = 5000, tau, omega, beta, X1, Hebb = TRUE) {
 
-  if(!is.numeric(n) | !is.numeric(nreps) | !is.numeric(tau) | !is.numeric(X1) | length(X1)!=n | !is.numeric(beta)) {
+  if(!is.numeric(n) || !is.numeric(nreps) || !is.numeric(tau) || !is.numeric(X1) || length(X1)!=n || !is.numeric(beta)) {
    stop("One of your arguments that should be nummeric is nonnummeric")
   }
 

@@ -15,3 +15,4 @@ delta_t <- function(tau,X,e = .001,l = .001) {
   tau_new <- tau+delta_t
   return(tau_new)
 }
+
