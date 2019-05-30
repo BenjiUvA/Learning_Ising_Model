@@ -11,10 +11,16 @@
 #' @param Hebb do you want to update omega with Hebb's rule?
 #' @param e is the learning parameter of Hebb's rule
 #' @param lambda is the decay parameter of Hebb's rule
+#'
+#' @return configurations contains all the configurations of the network over all nreps iterations
+#' @return beta contains a vector of length()==nreps with values used for beta
+#' @return mean omega contains a vector with the mean of omega at each configuration
+#' @return omega t=... contains omega at 5 timepoints between the first and the last iteration (equal intervals)
+#' @return gibbs entropy a vector with gibbs entropy for each iteration
 
 #'@export
 
-LIM_simlator <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(-1,1),n,T), Hebb = T, e =.001, lambda = .001) {
+LIM_simulator <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(-1,1),n,T), Hebb = T, e =.001, lambda = .001) {
 
 
 
