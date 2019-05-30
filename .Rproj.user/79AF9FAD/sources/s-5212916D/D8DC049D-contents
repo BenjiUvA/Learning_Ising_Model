@@ -1,4 +1,22 @@
-simulation_LIM <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(-1,1),n,T), Hebb = T, e =.001, lambda = .001) {
+#'LIM_simulator
+#'
+#'Simulates data from the Learning Ising Model
+#'
+#' @param n is the number of nodes in the network
+#' @param nreps is the number of iterations
+#' @param tau is a vector with a threshold for each node
+#' @param omega is a (symmetrical) matrix with the strength of connection between each nodes. Set the the diagonal to zero.
+#' @param X1 is the initial configuration of the network (e.g. if there are three nodes, X1 can be c(-1,1,-1))
+#' @param beta is the dependency parameter in the Ising model
+#' @param Hebb do you want to update omega with Hebb's rule?
+#' @param e is the learning parameter of Hebb's rule
+#' @param lambda is the decay parameter of Hebb's rule
+#' 
+#' @
+
+#'@export
+
+LIM_simulator <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(-1,1),n,T), Hebb = T, e =.001, lambda = .001) {
 
 
 
@@ -46,7 +64,7 @@ simulation_LIM <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(
   omega_mean <- numeric(nreps)
 
 
-
+  prog = dplyr::progress_estimated(nreps)
   for(i in 1:nreps) {
 
     omega_save[[i]] <- omega
@@ -70,11 +88,11 @@ simulation_LIM <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(
       omega <- delta_om(omega = omega,X = X1,e = e,lambda = lambda)
       omega <- omega[[2]]
     }
-
+  prog$tick()$print()
   }
 
   for(i in 1:nreps) {
-    omega_mean <- mean(omega_save[[i]])
+    omega_mean[i] <- mean(omega_save[[i]])
   }
 
   omega_out <- list(5)
