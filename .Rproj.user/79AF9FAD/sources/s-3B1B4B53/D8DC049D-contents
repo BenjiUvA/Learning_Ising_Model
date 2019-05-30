@@ -108,7 +108,7 @@ LIM_simulator <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(-
     omega_out[[5]] <- omega_save[[nreps-1]]
   }
 
-  output <- list("configurations" = dat, "beta" = beta_use, "mean omega" = omega_mean, "omega t=1" = omega_out[[1]],"omega t=0.25*nreps" = omega_out[[2]],"omega t=0.50*nreps" = omega_out[[3]], "omega t=0.75*nreps" = omega_out[[4]], "omega t=nreps-1" = omega_out[[5]], "gibbs entropy" = gibbs_entropy)
+  output <- list("configurations" = dat, "beta" = beta_use, "mean omega" = omega_mean, "did flip" = did_flip, "omega t=1" = omega_out[[1]],"omega t=0.25*nreps" = omega_out[[2]],"omega t=0.50*nreps" = omega_out[[3]], "omega t=0.75*nreps" = omega_out[[4]], "omega t=nreps-1" = omega_out[[5]], "gibbs entropy" = gibbs_entropy)
 
   return(output)
 
