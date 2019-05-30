@@ -39,4 +39,6 @@ LIMA_sim2 <- function(n = 10, tau = rep(0,n), omega = matrix(0,n,n), X = sample(
   }
 }
 
-
+prog = dplyr::progress_estimated(nreps)
+LIMA_sim2(n = 10,tau = tau, omega = omega, X,nreps = 6000, beta = beta_vec,Hebb = T)
+prog$tick()$print()
