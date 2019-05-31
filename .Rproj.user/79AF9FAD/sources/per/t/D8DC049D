@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2443113467",
     "id" : "D8DC049D",
-    "lastKnownWriteTime" : 1559218642,
-    "last_content_update" : 1559218642334,
+    "lastKnownWriteTime" : 1559293579,
+    "last_content_update" : 1559293579186,
     "path" : "~/UvA - Studie/ResMas 2018/Programming The Next Step/Learning_Ising_Model/R/LIM_simulator.R",
     "project_path" : "R/LIM_simulator.R",
     "properties" : {
-        "cursorPosition" : "115,0",
+        "cursorPosition" : "42,108",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },

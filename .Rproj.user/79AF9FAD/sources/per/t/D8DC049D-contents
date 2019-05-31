@@ -40,7 +40,7 @@ LIM_simulator <- function(n = 10, nreps = 100, tau, omega, beta, X1 = sample(c(-
     stop("make sure that length(tau)==n")
   }
 
-  if(nrow(omega)!=n || ncol(omega)!=n || all(diag(omega)!=0) || !is.numeric(omega) || omega[lower.tri(omega)]!=t(omega)[lower.tri(omega)]) {
+  if(nrow(omega)!=n || ncol(omega)!=n || all(diag(omega)!=0) || !is.numeric(omega) || !isSymmetric(omega) || omega[lower.tri(omega)]!=t(omega)[lower.tri(omega)]) {
     stop("make sure that omega is a symmetrical matrix with dimensions n*n and diag==0")
   }
 
