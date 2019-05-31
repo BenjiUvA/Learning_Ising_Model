@@ -6,6 +6,17 @@
 \usage{
 entropyS(omega, tau, X, beta = 1, pi_bm)
 }
+\arguments{
+\item{omega}{is a (symmetrical) matrix with the strength of connection between each nodes. Set the the diagonal to zero.}
+
+\item{tau}{is a vector with a threshold for each node}
+
+\item{X}{is the configuration of the network}
+
+\item{beta}{is the dependency parameter}
+
+\item{pi_bm}{is a vector that contains Boltzmann probabilities for all states.}
+}
 \description{
-Gibbs Entropy
+Calculates Gibbs entropy for a configuration of the network
 }

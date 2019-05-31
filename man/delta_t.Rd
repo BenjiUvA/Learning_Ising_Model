@@ -6,6 +6,15 @@
 \usage{
 delta_t(tau, X, e = 0.001, l = 0.001)
 }
+\arguments{
+\item{tau}{is vector that contains a threshold for each node}
+
+\item{X}{is the configuration of the network for which you want to update tau}
+
+\item{e}{is the learning parameter (default = .001)}
+
+\item{l}{is the decay parameter (default = .001)}
+}
 \description{
 Delta Tau
 }

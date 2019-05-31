@@ -1,5 +1,9 @@
 #' Delta Tau
 #'
+#'@param tau is vector that contains a threshold for each node
+#'@param X is the configuration of the network for which you want to update tau
+#'@param e is the learning parameter (default = .001)
+#'@param l is the decay parameter (default = .001)
 #'
 #'@export
 

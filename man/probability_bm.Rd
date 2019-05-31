@@ -6,6 +6,17 @@
 \usage{
 probability_bm(omega, tau, n, beta = 1, bm)
 }
+\arguments{
+\item{omega}{is a (symmetrical) matrix with the strength of connection between each nodes. Set the the diagonal to zero.}
+
+\item{tau}{is a vector with a threshold for each node}
+
+\item{n}{is the number of nodes in the network}
+
+\item{beta}{is the dependency parameter}
+
+\item{bm}{is a matrix with all possible configurations. This can be created with: bm <- as.matrix(expand.grid(rep(list(0:1),n))); bm[bm==0] <- -1}
+}
 \description{
-Boltzmann probabilities for all states
+Calculates Boltzmann probabilities for all states
 }
